@@ -1,0 +1,65 @@
+@import "./components/_utilities";
+
+.nav_bar {
+  height: 8vh;
+  background: $color-amber;
+
+  .nav_links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+
+    .nav_links__link,
+    a {
+      color: $color-ebony-clay;
+      font-size: 2.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_bar {
+    position: relative;
+
+    .nav_hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+      &__line {
+        width: 30px;
+        height: 3px;
+        background: $color-ebony-clay;
+        margin: 5px;
+      }
+    }
+
+    .nav_links {
+      position: fixed;
+      background: $color-amber;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(0 at 90% -10%);
+      -webkit-clip-path: circle(0 at 90% -10%);
+      transition: all 1s ease-out;
+
+      .nav_links__link {
+        a {
+          font-size: 3rem;
+        }
+      }
+
+      &.open {
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+      }
+    }
+  }
+}
