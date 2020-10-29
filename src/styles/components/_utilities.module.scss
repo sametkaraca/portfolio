@@ -12,3 +12,13 @@ $font-roboto: "Roboto";
 
 $size-tablet: 768px;
 $size-desktop: 1200px;
+
+.topline {
+  display: block;
+  opacity: 0.8;
+  content: "";
+  background-color: $color-amber;
+  height: 5px;
+  width: 12rem;
+  margin-bottom: 0.8rem;
+}

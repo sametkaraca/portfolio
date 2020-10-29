@@ -44,3 +44,76 @@
     width: 24vw;
   }
 }
+
+.home_project {
+  background-color: $color-shakespeare;
+  display: grid;
+  align-items: center;
+  padding: 4rem;
+  color: $color-bianca;
+
+  &_container {
+    margin-top: 4rem;
+  }
+
+  &_title {
+    text-transform: uppercase;
+  }
+
+  &_visual {
+    &__img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  &_content {
+    text-transform: capitalize;
+
+    &__text {
+      font-size: 1.4rem;
+      padding: 1rem 0;
+    }
+    &__link {
+      color: $color-amber;
+    }
+  }
+}
+
+.home_services {
+  background-color: $color-jade;
+  display: grid;
+  align-items: center;
+  color: $color-bianca;
+  padding: 4rem;
+
+  &_container {
+    margin-top: 4rem;
+  }
+
+  &_title {
+    text-transform: uppercase;
+  }
+
+  &_visual {
+    &__img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  &_content {
+    text-transform: capitalize;
+
+    &__text {
+      font-size: 1.4rem;
+      padding: 1rem 0;
+    }
+    &__link {
+      color: $color-amber;
+    }
+  }
+}

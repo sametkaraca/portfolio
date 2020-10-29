@@ -1,3 +1,13 @@
+.topline {
+  display: block;
+  opacity: 0.8;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
+  margin-bottom: 0.8rem;
+}
+
 .nav_bar {
   height: 8vh;
   background: #ffc000;
@@ -66,6 +76,16 @@
   }
 }
 
+.topline {
+  display: block;
+  opacity: 0.8;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
+  margin-bottom: 0.8rem;
+}
+
 .footer {
   padding: 2rem;
   height: 30vh;
@@ -115,6 +135,16 @@
       align-self: end;
 }
 
+.topline {
+  display: block;
+  opacity: 0.8;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
+  margin-bottom: 0.8rem;
+}
+
 *,
 *::after,
 *::before {
@@ -146,7 +176,29 @@ h2 {
 }
 
 h3 {
+  font-size: 3.2rem;
+}
+
+h4 {
   font-size: 2.6rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+.topline {
+  display: block;
+  opacity: 0.8;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
+  margin-bottom: 0.8rem;
 }
 
 .home_header {
@@ -195,5 +247,82 @@ h3 {
   .home_header_name__line {
     width: 24vw;
   }
+}
+
+.home_project {
+  background-color: #4da8da;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+  color: #fbf9f1;
+}
+
+.home_project_container {
+  margin-top: 4rem;
+}
+
+.home_project_title {
+  text-transform: uppercase;
+}
+
+.home_project_visual__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+
+.home_project_content {
+  text-transform: capitalize;
+}
+
+.home_project_content__text {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+.home_project_content__link {
+  color: #ffc000;
+}
+
+.home_services {
+  background-color: #00a57a;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fbf9f1;
+  padding: 4rem;
+}
+
+.home_services_container {
+  margin-top: 4rem;
+}
+
+.home_services_title {
+  text-transform: uppercase;
+}
+
+.home_services_visual__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+
+.home_services_content {
+  text-transform: capitalize;
+}
+
+.home_services_content__text {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+.home_services_content__link {
+  color: #ffc000;
 }
 /*# sourceMappingURL=main.module.css.map */
