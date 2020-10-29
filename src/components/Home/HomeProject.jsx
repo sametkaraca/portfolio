@@ -4,7 +4,7 @@ import orogelImg from "../../assets/orogel@1x.png";
 
 const HomeProject = () => {
   return (
-    <div className={style.home_project}>
+    <section className={style.home_project}>
       <div className={style.home_project_title}>
         <span className={style.topline}></span>
         <h2 className={style.home_project_title__text}>featured project</h2>
@@ -31,7 +31,7 @@ const HomeProject = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

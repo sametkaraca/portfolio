@@ -72,7 +72,6 @@
     text-transform: capitalize;
 
     &__text {
-      font-size: 1.4rem;
       padding: 1rem 0;
     }
     &__link {
@@ -109,11 +108,38 @@
     text-transform: capitalize;
 
     &__text {
-      font-size: 1.4rem;
       padding: 1rem 0;
     }
     &__link {
       color: $color-amber;
+    }
+  }
+}
+
+.home_comment {
+  background-color: $color-shakespeare;
+  display: grid;
+  align-items: center;
+  padding: 4rem;
+  text-align: center;
+  color: $color-bianca;
+
+  &_container {
+    &:last-child {
+      margin-top: 4rem;
+    }
+
+    &__content {
+      font-style: italic;
+      font-weight: lighter;
+    }
+
+    &__name {
+      font-weight: lighter;
+    }
+
+    &__position {
+      font-weight: lighter;
     }
   }
 }

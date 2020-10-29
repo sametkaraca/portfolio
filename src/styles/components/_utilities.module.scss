@@ -14,11 +14,23 @@ $size-tablet: 768px;
 $size-desktop: 1200px;
 
 .topline {
+  border-radius: 4px;
+
   display: block;
-  opacity: 0.8;
   content: "";
   background-color: $color-amber;
   height: 5px;
   width: 12rem;
   margin-bottom: 0.8rem;
+}
+
+.commentline {
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+  display: inline-grid;
+  justify-items: center;
+  content: "";
+  background-color: $color-amber;
+  height: 5px;
+  width: 12rem;
 }

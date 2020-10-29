@@ -1,11 +1,23 @@
 .topline {
+  border-radius: 4px;
   display: block;
-  opacity: 0.8;
   content: "";
   background-color: #ffc000;
   height: 5px;
   width: 12rem;
   margin-bottom: 0.8rem;
+}
+
+.commentline {
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  justify-items: center;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
 }
 
 .nav_bar {
@@ -77,13 +89,25 @@
 }
 
 .topline {
+  border-radius: 4px;
   display: block;
-  opacity: 0.8;
   content: "";
   background-color: #ffc000;
   height: 5px;
   width: 12rem;
   margin-bottom: 0.8rem;
+}
+
+.commentline {
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  justify-items: center;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
 }
 
 .footer {
@@ -136,13 +160,25 @@
 }
 
 .topline {
+  border-radius: 4px;
   display: block;
-  opacity: 0.8;
   content: "";
   background-color: #ffc000;
   height: 5px;
   width: 12rem;
   margin-bottom: 0.8rem;
+}
+
+.commentline {
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  justify-items: center;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
 }
 
 *,
@@ -160,7 +196,7 @@ html {
 
 body {
   font-family: "Poppins", serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 a {
@@ -192,13 +228,25 @@ h6 {
 }
 
 .topline {
+  border-radius: 4px;
   display: block;
-  opacity: 0.8;
   content: "";
   background-color: #ffc000;
   height: 5px;
   width: 12rem;
   margin-bottom: 0.8rem;
+}
+
+.commentline {
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  justify-items: center;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
 }
 
 .home_header {
@@ -279,7 +327,6 @@ h6 {
 }
 
 .home_project_content__text {
-  font-size: 1.4rem;
   padding: 1rem 0;
 }
 
@@ -318,11 +365,39 @@ h6 {
 }
 
 .home_services_content__text {
-  font-size: 1.4rem;
   padding: 1rem 0;
 }
 
 .home_services_content__link {
   color: #ffc000;
+}
+
+.home_comment {
+  background-color: #4da8da;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+  text-align: center;
+  color: #fbf9f1;
+}
+
+.home_comment_container:last-child {
+  margin-top: 4rem;
+}
+
+.home_comment_container__content {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.home_comment_container__name {
+  font-weight: lighter;
+}
+
+.home_comment_container__position {
+  font-weight: lighter;
 }
 /*# sourceMappingURL=main.module.css.map */

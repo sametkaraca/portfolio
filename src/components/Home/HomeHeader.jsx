@@ -3,7 +3,7 @@ import style from "../../styles/components/_home.module.scss";
 
 const HomeHeader = () => {
   return (
-    <div className={style.home_header}>
+    <section className={style.home_header}>
       <div className={style.home_header_salute}>
         <h1 className={style.home_header_salute__text}>Hello&#44;</h1>
       </div>
@@ -19,7 +19,7 @@ const HomeHeader = () => {
           Portfolio &gt;
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
