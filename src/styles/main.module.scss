@@ -1,4 +1,5 @@
-@import "./components/_navbar";
-@import "./components/_footer";
-@import "./components/_utilities";
-@import "./components/_base";
+@import "./components/_navbar.module";
+@import "./components/_footer.module";
+@import "./components/_utilities.module";
+@import "./components/_base.module";
+@import "./components/_home.module";

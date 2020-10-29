@@ -1,0 +1,46 @@
+@import "../components/utilities.module";
+
+.home_header {
+  height: 92vh;
+  background-color: $color-ebony-clay;
+  display: grid;
+  align-items: center;
+  padding: 0 4rem;
+
+  &_salute {
+    &__text {
+      color: $color-bianca;
+      font-weight: lighter;
+    }
+  }
+
+  &_name {
+    color: $color-bianca;
+    &__subtext {
+      font-weight: lighter;
+    }
+    &__line {
+      width: 42vw;
+    }
+  }
+
+  &_portfolio {
+    display: block;
+    &__link {
+      color: $color-amber;
+      display: block;
+      font-size: 3.2rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media only screen and (min-width: $size-tablet) {
+  .home_header {
+    padding-left: 8rem;
+  }
+
+  .home_header_name__line {
+    width: 24vw;
+  }
+}

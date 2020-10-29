@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "../styles/main.module.scss";
+import style from "../styles/components/_navbar.module.scss";
 
 const Navbar = () => {
   const state = useState(false);
