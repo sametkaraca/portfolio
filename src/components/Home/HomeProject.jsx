@@ -1,8 +1,10 @@
 import React from "react";
 import style from "../../styles/components/_home.module.scss";
-import orogelImg from "../../assets/orogel@1x.png";
+import imgOrogelSM from "../../assets/orogel@1x.png";
+import imgOrogelMD from "../../assets/orogel@2x.png";
 
 const HomeProject = () => {
+
   return (
     <section className={style.home_project}>
       <div className={style.home_project_title}>
@@ -11,12 +13,8 @@ const HomeProject = () => {
       </div>
       <div className={style.home_project_container}>
         <div className={style.home_project_visual}>
-          <img
-            className={style.home_project_visual__img}
-            src={orogelImg}
-            alt=""
-            srcset=""
-          />
+          <img src={imgOrogelSM} className={style.home_project_visual__img} />
+
         </div>
         <div className={style.home_project_content}>
           <h4 className={style.home_project_content__title}>orogel</h4>

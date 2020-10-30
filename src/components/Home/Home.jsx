@@ -4,11 +4,14 @@ import HomeProject from "./HomeProject";
 import HomeServices from "./HomeServices";
 import HomeComment from "./HomeComment";
 
+
+
 const Home = () => {
+
   return (
     <div>
       <HomeHeader />
-      <HomeProject />
+      <HomeProject/>
       <HomeServices />
       <HomeComment />
     </div>

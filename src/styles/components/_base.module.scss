@@ -1,3 +1,5 @@
+@import "../components/utilities.module";
+
 *,
 *::after,
 *::before {
@@ -42,4 +44,10 @@ h5 {
 
 h6 {
   font-size: 1.6rem;
+}
+
+@media screen and (min-width: $size-tablet) {
+  body {
+    font-size: 2rem;
+  }
 }
