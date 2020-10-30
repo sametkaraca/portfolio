@@ -7,24 +7,24 @@ const HomeProject = () => {
 
   return (
     <section className={style.home_project}>
-      <div className={style.home_project_title}>
-        <span className={style.topline}></span>
-        <h2 className={style.home_project_title__text}>featured project</h2>
-      </div>
       <div className={style.home_project_container}>
-        <div className={style.home_project_visual}>
-          <img src={imgOrogelSM} className={style.home_project_visual__img} />
-
+        <div className={style.home_project_container_title}>
+          <span className={style.topline}></span>
+          <h2 className={style.home_project_container_title__text}>featured project</h2>
         </div>
-        <div className={style.home_project_content}>
-          <h4 className={style.home_project_content__title}>orogel</h4>
-          <p className={style.home_project_content__text}>
+
+        <div className={style.home_project_container_visual}>
+          <img src={imgOrogelSM} className={style.home_project_container_visual__img} />
+        </div>
+        <div className={style.home_project_container_content}>
+          <h4 className={style.home_project_container_content__title}>orogel</h4>
+          <p className={style.home_project_container_content__text}>
             Orogel, the biggest frozen foods company in Italy, strong in its
             experience as a leading producer of frozen foods, offers a rich,
             complete range that keeps pace with new trends, wihout renouncing to
             good, traditional flavour from the past in Italy.
           </p>
-          <a href="#" className={style.home_project_content__link}>
+          <a href="#" className={style.home_project_container_content__link}>
             <h4>Visit &gt;</h4>
           </a>
         </div>

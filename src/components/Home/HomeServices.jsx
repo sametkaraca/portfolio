@@ -7,10 +7,13 @@ import googleIconSM from "../../assets/google@1x.png";
 const HomeServices = () => {
   return (
     <section className={style.home_services}>
-      <div className={style.home_services_title}>
-        <span className={style.topline}></span>
-        <h2 className={style.home_services_title__text}>services</h2>
+      <div className={style.home_services_top_container}>
+        <div className={style.home_services_title}>
+          <span className={style.topline}></span>
+          <h2 className={style.home_services_title__text}>services</h2>
+        </div>
       </div>
+
       <div className={style.home_services_container}>
         <div className={style.home_services_visual}>
           <img
