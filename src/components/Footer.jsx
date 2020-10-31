@@ -1,9 +1,7 @@
 import React from "react";
 import style from "../styles/main.module.scss";
 import inIconSM from "../assets/in@1x.png";
-// import inIconMD from "../assets/in@2x.png";
 import gitIconSM from "../assets/git@1x.png";
-// import gitIconMD from "../assets/git@2x.png";
 
 const Footer = () => {
   return (

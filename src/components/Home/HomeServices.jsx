@@ -15,19 +15,20 @@ const HomeServices = () => {
       </div>
 
       <div className={style.home_services_container}>
-        <div className={style.home_services_visual}>
+        <div className={style.home_services_container_visual}>
           <img
-            className={style.home_services_visual__img}
+            className={style.home_services_container_visual__img}
             src={reactIconSM}
             alt=""
             srcset=""
           />
         </div>
-        <div className={style.home_services_content}>
-          <h4 className={style.home_services_content__title}>
+
+        <div className={style.home_services_container_content}>
+          <h4 className={style.home_services_container_content__title}>
             Frontend Development
           </h4>
-          <p className={style.home_services_content__text}>
+          <p className={style.home_services_container_content__text}>
             Orogel, the biggest frozen foods company in Italy, strong in its
             experience as a leading producer of frozen foods, offers a rich,
             complete range that keeps pace with new trends, wihout renouncing to
@@ -35,18 +36,19 @@ const HomeServices = () => {
           </p>
         </div>
       </div>
+
       <div className={style.home_services_container}>
-        <div className={style.home_services_visual}>
+        <div className={style.home_services_container_visual}>
           <img
-            className={style.home_services_visual__img}
+            className={style.home_services_container_visual__img}
             src={xdIconSM}
             alt=""
             srcset=""
           />
         </div>
-        <div className={style.home_services_content}>
-          <h4 className={style.home_services_content__title}>UX Design</h4>
-          <p className={style.home_services_content__text}>
+        <div className={style.home_services_container_content}>
+          <h4 className={style.home_services_container_content__title}>UX Design</h4>
+          <p className={style.home_services_container_content__text}>
             Orogel, the biggest frozen foods company in Italy, strong in its
             experience as a leading producer of frozen foods, offers a rich,
             complete range that keeps pace with new trends, wihout renouncing to
@@ -55,17 +57,17 @@ const HomeServices = () => {
         </div>
       </div>
       <div className={style.home_services_container}>
-        <div className={style.home_services_visual}>
+        <div className={style.home_services_container_visual}>
           <img
-            className={style.home_services_visual__img}
+            className={style.home_services_container_visual__img}
             src={googleIconSM}
             alt=""
             srcset=""
           />
         </div>
-        <div className={style.home_services_content}>
-          <h4 className={style.home_services_content__title}>Google Tools</h4>
-          <p className={style.home_services_content__text}>
+        <div className={style.home_services_container_content}>
+          <h4 className={style.home_services_container_content__title}>Google Tools</h4>
+          <p className={style.home_services_container_content__text}>
             I work for Google at the Webtech Project. I implement Google codes
             and cover testing process. Google Analytics, Ads, Tag Manager, and
             Merchant Center are the products I support in professional level.
