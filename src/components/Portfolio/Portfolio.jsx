@@ -1,11 +1,10 @@
 import React from 'react';
 import PortfolioHeader from './PortfolioHeader';
 
-const Portfolio = () => {
+export const Portfolio = () => {
     return (
         <div>
             <PortfolioHeader />
+            Portfolio Page
         </div>)
 }
-
-export default Portfolio;

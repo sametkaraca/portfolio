@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 import style from "../styles/components/_navbar.module.scss";
 
 const Navbar = () => {
@@ -22,7 +24,7 @@ const Navbar = () => {
         {navLinks.map((item) => (
           <li key={item} className={style.nav_links__link}>
 
-            <a href="#home" className={style.nav_links__link__a}>{item}</a>
+            <NavLink to={item} className={style.nav_links__link__a}>{item}</NavLink>
 
           </li>
         ))}
