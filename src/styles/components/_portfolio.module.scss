@@ -1,0 +1,9 @@
+@import "../components/utilities.module";
+
+.portfolio {
+  background-color: red;
+
+  &_container {
+    background-color: green;
+  }
+}
