@@ -2,14 +2,14 @@
 
 .about_header {
   background: url("../../assets/wallpapers/samet_mobile@1x.png");
-  height: 68vh;
   display: grid;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin-bottom: -1px;
 
   &_container {
     align-items: center;
-    padding: 4rem 0 0 4rem;
+    padding: 4rem;
     max-width: 47vw;
 
     &_title {
@@ -99,6 +99,7 @@
   }
 
   &_content {
+    margin-top: 2rem;
     color: $color-bianca;
   }
 }
@@ -108,5 +109,49 @@
   &_img {
     width: 100%;
     height: auto;
+  }
+}
+
+//TABLET
+@media screen and (min-width: $size-tablet) {
+  .about_header {
+    padding: 8rem;
+
+    &_container_title__content {
+      font-size: 3.2rem;
+    }
+  }
+
+  .about_education {
+    padding: 8rem;
+  }
+  .about_summary {
+    padding: 8rem;
+  }
+
+  .about_hobbies {
+    padding: 8rem;
+  }
+}
+
+//DESKTOP
+@media screen and (min-width: $size-tablet) {
+  .about_header {
+    padding: 12rem;
+
+    &_container_title__content {
+      font-size: 3.2rem;
+    }
+  }
+
+  .about_education {
+    padding: 12rem;
+  }
+  .about_summary {
+    padding: 12rem;
+  }
+
+  .about_hobbies {
+    padding: 12rem;
   }
 }

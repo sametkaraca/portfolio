@@ -10,7 +10,7 @@ export const About = () => {
         <AboutHeader />
         <AboutSummary />
         <AboutEducation />
-        <AboutHobbies />
         <AboutTravel />
+        <AboutHobbies />
     </>);
 }
