@@ -3,7 +3,7 @@ import style from "../../styles/components/_home.module.scss";
 import profileIconTop from "../../assets/mike@1x.png";
 import profileIconBottom from "../../assets/karrar@1x.png";
 
-const HomeComment = () => {
+export const HomeComment = () => {
   return (
     <section className={style.home_comment}>
       <div className={style.home_comment_container}>
@@ -44,5 +44,3 @@ const HomeComment = () => {
     </section>
   );
 };
-
-export default HomeComment;

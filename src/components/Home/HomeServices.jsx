@@ -4,7 +4,7 @@ import reactIconSM from "../../assets/react@1x.png";
 import xdIconSM from "../../assets/xd@1x.png";
 import googleIconSM from "../../assets/google@1x.png";
 
-const HomeServices = () => {
+export const HomeServices = () => {
   return (
     <section className={style.home_services}>
       <div className={style.home_services_top_container}>
@@ -77,5 +77,3 @@ const HomeServices = () => {
     </section>
   );
 };
-
-export default HomeServices;

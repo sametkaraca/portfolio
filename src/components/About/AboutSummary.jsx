@@ -12,7 +12,7 @@ export const AboutSummary = () => {
             <span className={style.commentline}></span>
 
             <p className={style.about_summary_container__content}>
-                I had my master's degree in Poland. I worked in Italy as a front-end engineer. I'm currently working in Krakow, Poland. During the day I’m the web implementation engineer at the Google Webtech project. In the evenings I spend my time working on front-end projects.
+                I worked in Italy as a front-end engineer. I'm currently working in Krakow, Poland. During the day I’m the web implementation engineer at the Google Webtech project. In the evenings I spend my time working on front-end projects.
               </p>
             <br />
         </div>

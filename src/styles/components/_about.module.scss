@@ -1,4 +1,4 @@
-@import "../components/utilities.module";
+@import "../../styles/components/utilities.module";
 
 .about_header {
   background: url("../../assets/wallpapers/samet_mobile@1x.png");
@@ -44,6 +44,44 @@
       margin-top: 2rem;
       text-align: justify;
       font-weight: lighter;
+      font-style: italic;
+    }
+  }
+}
+
+.about_education {
+  background-color: $color-shakespeare;
+  display: grid;
+  align-items: center;
+  padding: 4rem;
+  color: $color-bianca;
+
+  &__maintitle {
+    text-transform: uppercase;
+  }
+
+  &_container {
+    &__card {
+      margin-bottom: 2rem;
+    }
+
+    &__title {
+      margin-top: 2rem;
+      color: $color-amber;
+      text-transform: uppercase;
+
+      &_school {
+        padding-top: 0.6rem;
+        color: $color-bianca;
+        text-transform: uppercase;
+        font-style: italic;
+      }
+    }
+    &__content {
+      padding-top: 0.6rem;
+
+      font-weight: lighter;
+      font-style: italic;
     }
   }
 }

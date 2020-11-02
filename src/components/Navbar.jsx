@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import style from "../styles/components/_navbar.module.scss";
 
-const Navbar = () => {
+export const Navbar = () => {
   const state = useState(false);
 
   const isOpen = state[0];
@@ -29,5 +29,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

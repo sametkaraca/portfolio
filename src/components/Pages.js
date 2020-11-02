@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { About } from "./About/About";
-import Home from "./Home/Home";
+import { Home } from "./Home/Home";
 import { Portfolio } from "./Portfolio/Portfolio";
 import { Unreachable } from "./Unreachable";
 import { Lab } from "./Lab/Lab";

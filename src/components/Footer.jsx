@@ -3,7 +3,7 @@ import style from "../styles/main.module.scss";
 import inIconSM from "../assets/in@1x.png";
 import gitIconSM from "../assets/git@1x.png";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.footer_linkedin}>
@@ -23,5 +23,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

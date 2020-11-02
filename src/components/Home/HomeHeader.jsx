@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../../styles/components/_home.module.scss";
 
-const HomeHeader = () => {
+export const HomeHeader = () => {
   return (
     <section className={style.home_header}>
       <div className={style.home_header_salute}>
@@ -22,5 +22,3 @@ const HomeHeader = () => {
     </section>
   );
 };
-
-export default HomeHeader;

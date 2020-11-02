@@ -1,9 +1,8 @@
 import React from "react";
 import style from "../../styles/components/_home.module.scss";
 import imgOrogelSM from "../../assets/orogel@1x.png";
-import imgOrogelMD from "../../assets/orogel@2x.png";
 
-const HomeProject = () => {
+export const HomeProject = () => {
 
   return (
     <section className={style.home_project}>
@@ -32,5 +31,3 @@ const HomeProject = () => {
     </section>
   );
 };
-
-export default HomeProject;

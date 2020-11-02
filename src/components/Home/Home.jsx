@@ -1,10 +1,10 @@
 import React from "react";
-import HomeHeader from "./HomeHeader";
-import HomeProject from "./HomeProject";
-import HomeServices from "./HomeServices";
-import HomeComment from "./HomeComment";
+import { HomeHeader } from "./HomeHeader";
+import { HomeProject } from "./HomeProject";
+import { HomeServices } from "./HomeServices";
+import { HomeComment } from "./HomeComment";
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <HomeHeader />
@@ -14,5 +14,3 @@ const Home = () => {
     </>
   );
 };
-
-export default Home;
