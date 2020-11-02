@@ -1,0 +1,28 @@
+@import "../components/utilities.module";
+
+.about_header {
+  background: url("../../assets/wallpapers/samet_mobile@1x.png");
+  height: 68vh;
+  display: grid;
+
+  &_container {
+    align-items: center;
+    padding: 4rem 0 0 4rem;
+    max-width: 47vw;
+
+    &_title {
+      color: $color-bianca;
+
+      &__text {
+        text-transform: uppercase;
+        padding: 1rem 0;
+      }
+
+      &__content {
+        color: $color-amber;
+        font-weight: lighter;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

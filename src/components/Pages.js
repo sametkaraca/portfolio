@@ -6,8 +6,6 @@ import { Portfolio } from "./Portfolio/Portfolio";
 import { Unreachable } from "./Unreachable";
 import { Lab } from "./Lab/Lab";
 
-// const Projects = () => <div>Projects page</div>;
-
 export const Pages = () => {
   return (
     <Switch>

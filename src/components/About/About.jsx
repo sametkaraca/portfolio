@@ -1,5 +1,8 @@
 import React from 'react';
+import { AboutHeader } from "./AboutHeader";
 
 export const About = () => {
-    return (<div>About</div>);
+    return (<>
+        <AboutHeader />
+    </>);
 }

@@ -6,12 +6,12 @@ import HomeComment from "./HomeComment";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <HomeHeader />
       <HomeProject />
       <HomeServices />
       <HomeComment />
-    </div>
+    </>
   );
 };
 
