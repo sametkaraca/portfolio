@@ -11,9 +11,5 @@ export const AboutHeader = () => {
                     <h4 className={style.about_header_container_title__content}>Hey,<br /> <br /> I'm Samet. <br /> I am a frontend engineer.</h4>
                 </div>
             </div>
-
-
-
-
         </section>);
 }   

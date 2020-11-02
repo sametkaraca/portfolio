@@ -26,3 +26,24 @@
     }
   }
 }
+
+.about_summary {
+  display: grid;
+  color: $color-amber;
+  background-color: $color-ebony-clay;
+  padding: 4rem;
+
+  &_container {
+    text-align: center;
+
+    &__title {
+      font-weight: lighter;
+    }
+
+    &__content {
+      margin-top: 2rem;
+      text-align: justify;
+      font-weight: lighter;
+    }
+  }
+}
