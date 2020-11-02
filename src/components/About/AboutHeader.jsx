@@ -8,7 +8,7 @@ export const AboutHeader = () => {
                 <div className={style.about_header_container_title}>
                     <span className={style.topline}></span>
                     <h2 className={style.about_header_container_title__text}>About</h2>
-                    <h4 className={style.about_header_container_title__content}>Hey,<br /> <br /> I'm Samet. <br /> I am a frontend engineer.</h4>
+                    <h4 className={style.about_header_container_title__content}>Hey,<br /> <br /> I'm Samet. <br /> A frontend engineer.</h4>
                 </div>
             </div>
         </section>);

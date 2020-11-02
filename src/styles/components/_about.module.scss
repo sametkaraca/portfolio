@@ -4,6 +4,8 @@
   background: url("../../assets/wallpapers/samet_mobile@1x.png");
   height: 68vh;
   display: grid;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
   &_container {
     align-items: center;
@@ -29,7 +31,7 @@
 
 .about_summary {
   display: grid;
-  color: $color-amber;
+  color: $color-bianca;
   background-color: $color-ebony-clay;
   padding: 4rem;
 
@@ -42,7 +44,6 @@
 
     &__content {
       margin-top: 2rem;
-      text-align: justify;
       font-weight: lighter;
       font-style: italic;
     }
@@ -50,7 +51,7 @@
 }
 
 .about_education {
-  background-color: $color-shakespeare;
+  background-color: $color-jade;
   display: grid;
   align-items: center;
   padding: 4rem;
@@ -83,5 +84,29 @@
       font-weight: lighter;
       font-style: italic;
     }
+  }
+}
+
+.about_hobbies {
+  background-color: $color-east-side;
+  display: grid;
+  align-items: center;
+  padding: 4rem;
+  color: $color-bianca;
+
+  &__maintitle {
+    text-transform: uppercase;
+  }
+
+  &_content {
+    color: $color-bianca;
+  }
+}
+
+.about_travel {
+  margin-bottom: -1rem;
+  &_img {
+    width: 100%;
+    height: auto;
   }
 }
