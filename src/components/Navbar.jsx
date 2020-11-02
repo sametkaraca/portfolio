@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import style from "../styles/components/_navbar.module.scss";
 
 const Navbar = () => {
@@ -10,7 +9,7 @@ const Navbar = () => {
   const setIsOpen = state[1];
 
   const isOpenClass = isOpen ? style.open : "";
-  const navLinks = ["About", "Portfolio", "Projects"];
+  const navLinks = ["Home", "About", "Portfolio", "Lab"];
 
   return (
     <nav className={style.nav_bar}>
@@ -23,9 +22,7 @@ const Navbar = () => {
       <ul className={[style.nav_links, isOpenClass].join(" ")}>
         {navLinks.map((item) => (
           <li key={item} className={style.nav_links__link}>
-
             <NavLink to={item} className={style.nav_links__link__a}>{item}</NavLink>
-
           </li>
         ))}
       </ul>
