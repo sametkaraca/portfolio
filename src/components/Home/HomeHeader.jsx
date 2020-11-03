@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "../../styles/components/_home.module.scss";
 
 export const HomeHeader = () => {
@@ -15,9 +16,9 @@ export const HomeHeader = () => {
         </h3>
       </div>
       <div className={style.home_header_portfolio}>
-        <a className={style.home_header_portfolio__link} href="www.google.com">
+        <Link className={style.home_header_portfolio__link} to={`/portfolio`}>
           Portfolio &gt;
-        </a>
+        </Link>
       </div>
     </section>
   );

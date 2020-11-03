@@ -25,7 +25,11 @@ export const PortfolioBody = () => {
             complete range that keeps pace with new trends, wihout renouncing to
             good, traditional flavour from the past in Italy.
           </p>
-          <a href="#" className={style.portfolio_body_container_content__link}>
+          <a
+            href="https://www.orogel.it/"
+            target="_blank"
+            className={style.portfolio_body_container_content__link}
+          >
             <h4>Visit &gt;</h4>
           </a>
         </div>
@@ -52,7 +56,11 @@ export const PortfolioBody = () => {
             complete range that keeps pace with new trends, wihout renouncing to
             good, traditional flavour from the past in Italy.
           </p>
-          <a href="#" className={style.portfolio_body_container_content__link}>
+          <a
+            href="https://www.orogelfresco.it/"
+            target="_blank"
+            className={style.portfolio_body_container_content__link}
+          >
             <h4>Visit &gt;</h4>
           </a>
         </div>
@@ -76,7 +84,11 @@ export const PortfolioBody = () => {
             software solutions and consulting services for business management
             and organization in Romagna region based on Forli-Cesena.
           </p>
-          <a href="#" className={style.portfolio_body_container_content__link}>
+          <a
+            href="https://www.onit.it/"
+            target="_blank"
+            className={style.portfolio_body_container_content__link}
+          >
             <h4>Visit &gt;</h4>
           </a>
         </div>
@@ -102,7 +114,11 @@ export const PortfolioBody = () => {
             its locations. There are 2 companies in the LINXS SRL corporate
             family.
           </p>
-          <a href="#" className={style.portfolio_body_container_content__link}>
+          <a
+            href="https://www.linxs.it/"
+            target="_blank"
+            className={style.portfolio_body_container_content__link}
+          >
             <h4>Visit &gt;</h4>
           </a>
         </div>
@@ -128,7 +144,11 @@ export const PortfolioBody = () => {
             its locations. There are 2 companies in the LINXS SRL corporate
             family.
           </p>
-          <a href="#" className={style.portfolio_body_container_content__link}>
+          <a
+            href="https://www.fabulagroup.it/"
+            target="_blank"
+            className={style.portfolio_body_container_content__link}
+          >
             <h4>Visit &gt;</h4>
           </a>
         </div>
