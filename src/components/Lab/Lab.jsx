@@ -1,10 +1,10 @@
-import React from 'react';
-// import style from "../../styles/main.module.scss";
+import React from "react";
+import { LabHeader } from "./LabHeader";
 
 export const Lab = () => {
-    return (
-        <>
-            Lab
-        </>
-    );
-}
+  return (
+    <>
+      <LabHeader />
+    </>
+  );
+};

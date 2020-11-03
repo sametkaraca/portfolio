@@ -1,13 +1,19 @@
 import React from 'react';
 import style from "../../styles/components/_portfolio.module.scss";
 
-const Portfolio = () => {
+export const PortfolioHeader = () => {
     return (
-        <div className={style.portfolio}>
-            <div className={style.portfolio_container}>
-                Porfolio Header
+        <section className={style.portfolio_header}>
+            <div className={style.portfolio_header_container}>
+                <div className={style.portfolio_header_container_title}>
+                    <span className={style.topline}></span>
+                    <h1 className={style.portfolio_header_container_title__text}>Portfolio</h1>
+                    <h2 className={style.portfolio_header_container_title__content}>
+                        The Participated Projects
+                        in
+                        Italy
+                    </h2>
+                </div>
             </div>
-        </div>);
+        </section>);
 }
-
-export default Portfolio;

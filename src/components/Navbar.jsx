@@ -22,7 +22,9 @@ export const Navbar = () => {
       <ul className={[style.nav_links, isOpenClass].join(" ")}>
         {navLinks.map((item) => (
           <li key={item} className={style.nav_links__link}>
-            <NavLink to={item} className={style.nav_links__link__a}>{item}</NavLink>
+            <NavLink to={item} className={style.nav_links__link__a}>
+              {item}
+            </NavLink>
           </li>
         ))}
       </ul>

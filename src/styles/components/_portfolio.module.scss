@@ -1,9 +1,103 @@
 @import "../components/utilities.module";
 
-.portfolio {
-  background-color: red;
+.portfolio_header {
+  background: url("../../assets/wallpapers/samet_mobile@1x.png");
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: -1px;
 
   &_container {
-    background-color: green;
+    align-items: center;
+    padding: 4rem;
+    max-width: 47vw;
+
+    &_title {
+      color: $color-bianca;
+
+      &__text {
+        text-transform: uppercase;
+        padding: 1rem 0;
+      }
+
+      &__content {
+        color: $color-amber;
+        font-weight: lighter;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.portfolio_body {
+  background-color: $color-shakespeare;
+  display: grid;
+  align-items: center;
+  color: $color-bianca;
+
+  &_container {
+    padding: 4rem;
+
+    &:nth-child(1) {
+      background-color: $color-ebony-clay;
+    }
+
+    &:nth-child(2) {
+      background-color: $color-bianca;
+      color: $color-ebony-clay;
+    }
+
+    &:nth-child(3) {
+      background-color: $color-east-side;
+    }
+    &:nth-child(4) {
+      background-color: $color-jade;
+    }
+    &:nth-child(5) {
+      background-color: $color-shakespeare;
+    }
+
+    &_title {
+      text-transform: uppercase;
+    }
+
+    &_content {
+      text-transform: capitalize;
+
+      &__text {
+        padding: 1rem 0;
+      }
+      &__link {
+        color: $color-amber;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $size-tablet) {
+  .portfolio_header {
+    &_container {
+      padding: 8rem;
+    }
+  }
+
+  .portfolio_body {
+    &_container {
+      padding: 8rem;
+    }
+  }
+}
+
+@media screen and (min-width: $size-desktop) {
+  .portfolio_header {
+    &_container {
+      padding: 12rem;
+    }
+  }
+
+  .portfolio_body {
+    &_container {
+      padding: 12rem;
+    }
   }
 }
