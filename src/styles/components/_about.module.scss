@@ -1,13 +1,22 @@
 @import "../../styles/components/utilities.module";
 
 .about_header {
-  background: url("../../assets/wallpapers/samet_mobile@1x.png");
   display: grid;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-bottom: -1px;
+  position: relative;
+
+  &_banner {
+    &__img {
+      width: 100%;
+      height: auto;
+      z-index: -1;
+      height: 800px;
+      margin-bottom: -8px;
+    }
+  }
 
   &_container {
+    position: absolute;
+    z-index: 1;
     align-items: center;
     padding: 4rem;
     max-width: 47vw;

@@ -1,6 +1,25 @@
 import React from "react";
 import style from "../../styles/components/_portfolio.module.scss";
-import imgOrogelSM from "../../assets/orogel@1x.png";
+
+import orogelIconSM from "../../assets/orogel.png";
+import orogelIconMD from "../../assets/orogel@x2.png";
+import orogelIconXL from "../../assets/orogel@x3.png";
+
+import frescoIconSM from "../../assets/fresco.png";
+import frescoIconMD from "../../assets/fresco@x2.png";
+import frescoIconXL from "../../assets/fresco@x3.png";
+
+import onitIconSM from "../../assets/onit.png";
+import onitIconMD from "../../assets/onit@x2.png";
+import onitIconXL from "../../assets/onit@x3.png";
+
+import linxsIconSM from "../../assets/linxs.png";
+import linxsIconMD from "../../assets/linxs@x2.png";
+import linxsIconXL from "../../assets/linxs@x3.png";
+
+import fabulaIconSM from "../../assets/fabula.png";
+import fabulaIconMD from "../../assets/fabula@x2.png";
+import fabulaIconXL from "../../assets/fabula@x3.png";
 
 export const PortfolioBody = () => {
   return (
@@ -14,9 +33,9 @@ export const PortfolioBody = () => {
 
         <div className={style.portfolio_body_container_visual}>
           <img
-            src={imgOrogelSM}
-            className={style.portfolio_body_container_visual__img}
-            alt="Orogel Website"
+            srcSet={`${orogelIconSM} 300w, ${orogelIconMD} 768w, ${orogelIconXL} 1280w`}
+            alt="React Service"
+            className={style.home_services_container_visual__img}
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -46,9 +65,9 @@ export const PortfolioBody = () => {
 
         <div className={style.portfolio_body_container_visual}>
           <img
-            src={imgOrogelSM}
-            className={style.portfolio_body_container_visual__img}
-            alt="Orogel Fresco Website"
+            srcSet={`${frescoIconSM} 300w, ${frescoIconMD} 768w, ${frescoIconXL} 1280w`}
+            alt="React Service"
+            className={style.home_services_container_visual__img}
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -76,9 +95,9 @@ export const PortfolioBody = () => {
 
         <div className={style.portfolio_body_container_visual}>
           <img
-            src={imgOrogelSM}
-            className={style.portfolio_body_container_visual__img}
-            alt="Onit Website"
+            srcSet={`${onitIconSM} 300w, ${onitIconMD} 768w, ${onitIconXL} 1280w`}
+            alt="React Service"
+            className={style.home_services_container_visual__img}
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -106,9 +125,9 @@ export const PortfolioBody = () => {
 
         <div className={style.portfolio_body_container_visual}>
           <img
-            src={imgOrogelSM}
-            className={style.portfolio_body_container_visual__img}
-            alt="Linxs Website"
+            srcSet={`${linxsIconSM} 300w, ${linxsIconMD} 768w, ${linxsIconXL} 1280w`}
+            alt="React Service"
+            className={style.home_services_container_visual__img}
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -137,9 +156,9 @@ export const PortfolioBody = () => {
 
         <div className={style.portfolio_body_container_visual}>
           <img
-            src={imgOrogelSM}
-            className={style.portfolio_body_container_visual__img}
-            alt="Fabula Website"
+            srcSet={`${fabulaIconSM} 300w, ${fabulaIconMD} 768w, ${fabulaIconXL} 1280w`}
+            alt="React Service"
+            className={style.home_services_container_visual__img}
           />
         </div>
         <div className={style.portfolio_body_container_content}>

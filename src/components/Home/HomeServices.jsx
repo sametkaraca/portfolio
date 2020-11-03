@@ -1,8 +1,17 @@
 import React from "react";
 import style from "../../styles/components/_home.module.scss";
-import reactIconSM from "../../assets/react@1x.png";
-import xdIconSM from "../../assets/xd@1x.png";
-import googleIconSM from "../../assets/google@1x.png";
+
+import reactIconSM from "../../assets/react.png";
+import reactIconMD from "../../assets/react@2x.png";
+import reactIconXL from "../../assets/react@3x.png";
+
+import xdIconSM from "../../assets/xd.png";
+import xdIconMD from "../../assets/xd@2x.png";
+import xdIconXL from "../../assets/xd@3x.png";
+
+import googleIconSM from "../../assets/google.png";
+import googleIconMD from "../../assets/google@2x.png";
+import googleIconXL from "../../assets/google@3x.png";
 
 export const HomeServices = () => {
   return (
@@ -17,10 +26,9 @@ export const HomeServices = () => {
       <div className={style.home_services_container}>
         <div className={style.home_services_container_visual}>
           <img
+            srcSet={`${reactIconSM} 300w, ${reactIconMD} 768w, ${reactIconXL} 1280w`}
+            alt="React Service"
             className={style.home_services_container_visual__img}
-            src={reactIconSM}
-            alt=""
-            srcset=""
           />
         </div>
 
@@ -40,14 +48,15 @@ export const HomeServices = () => {
       <div className={style.home_services_container}>
         <div className={style.home_services_container_visual}>
           <img
+            srcSet={`${xdIconSM} 300w, ${xdIconMD} 768w, ${xdIconXL} 1280w`}
+            alt="React Service"
             className={style.home_services_container_visual__img}
-            src={xdIconSM}
-            alt=""
-            srcset=""
           />
         </div>
         <div className={style.home_services_container_content}>
-          <h4 className={style.home_services_container_content__title}>UX Design</h4>
+          <h4 className={style.home_services_container_content__title}>
+            UX Design
+          </h4>
           <p className={style.home_services_container_content__text}>
             Orogel, the biggest frozen foods company in Italy, strong in its
             experience as a leading producer of frozen foods, offers a rich,
@@ -59,14 +68,15 @@ export const HomeServices = () => {
       <div className={style.home_services_container}>
         <div className={style.home_services_container_visual}>
           <img
+            srcSet={`${googleIconSM} 300w, ${googleIconMD} 768w, ${googleIconXL} 1280w`}
+            alt="React Service"
             className={style.home_services_container_visual__img}
-            src={googleIconSM}
-            alt=""
-            srcset=""
           />
         </div>
         <div className={style.home_services_container_content}>
-          <h4 className={style.home_services_container_content__title}>Google Tools</h4>
+          <h4 className={style.home_services_container_content__title}>
+            Google Tools
+          </h4>
           <p className={style.home_services_container_content__text}>
             I work for Google at the Webtech Project. I implement Google codes
             and cover testing process. Google Analytics, Ads, Tag Manager, and

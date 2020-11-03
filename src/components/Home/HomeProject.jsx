@@ -1,6 +1,8 @@
 import React from "react";
 import style from "../../styles/components/_home.module.scss";
-import imgOrogelSM from "../../assets/orogel@1x.png";
+import orogelIconSM from "../../assets/orogel.png";
+import orogelIconMD from "../../assets/orogel@x2.png";
+import orogelIconXL from "../../assets/orogel@x3.png";
 
 export const HomeProject = () => {
   return (
@@ -15,9 +17,9 @@ export const HomeProject = () => {
 
         <div className={style.home_project_container_visual}>
           <img
-            src={imgOrogelSM}
-            className={style.home_project_container_visual__img}
-            alt="Orogel Website"
+            srcSet={`${orogelIconSM} 300w, ${orogelIconMD} 768w, ${orogelIconXL} 1280w`}
+            alt="React Service"
+            className={style.home_services_container_visual__img}
           />
         </div>
         <div className={style.home_project_container_content}>

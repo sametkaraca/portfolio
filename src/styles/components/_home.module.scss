@@ -69,7 +69,7 @@
   padding: 4rem;
 
   &_container {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   &_title {
@@ -77,10 +77,8 @@
   }
 
   &_visual {
+    margin-bottom: 1.2rem;
     &__img {
-      display: block;
-      width: 100%;
-      height: auto;
       margin-bottom: 1.2rem;
     }
   }
@@ -151,7 +149,7 @@
     }
 
     &_visual__img {
-      max-width: 60%;
+      max-width: 100%;
     }
   }
 
