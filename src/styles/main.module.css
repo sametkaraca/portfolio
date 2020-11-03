@@ -780,4 +780,67 @@ h6 {
 .lab_header_container__title {
   font-weight: lighter;
 }
+
+.topline {
+  border-radius: 4px;
+  display: block;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
+  margin-bottom: 0.8rem;
+}
+
+.commentline {
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  justify-items: center;
+  content: "";
+  background-color: #ffc000;
+  height: 5px;
+  width: 12rem;
+}
+
+.error {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  height: 70vh;
+  background-color: #e7696d;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.error_container__title {
+  font-size: 8rem;
+  color: #ffc000;
+}
+
+.error_container__content {
+  color: #ffc000;
+}
+
+@media only screen and (min-width: 768px) {
+  .error_container__title {
+    font-size: 12rem;
+  }
+  .error_container__content {
+    color: #ffc000;
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .error_container__title {
+    font-size: 16rem;
+  }
+  .error_container__content {
+    color: #ffc000;
+    font-size: 3.2rem;
+  }
+}
 /*# sourceMappingURL=main.module.css.map */

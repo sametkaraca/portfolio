@@ -17,6 +17,7 @@ export const HomeProject = () => {
           <img
             src={imgOrogelSM}
             className={style.home_project_container_visual__img}
+            alt="Orogel Website"
           />
         </div>
         <div className={style.home_project_container_content}>
@@ -31,7 +32,7 @@ export const HomeProject = () => {
           </p>
           <a
             href="https://www.onit.it/"
-            target="_blank"
+            target={`_blank`}
             className={style.home_project_container_content__link}
           >
             <h4>Visit &gt;</h4>

@@ -16,6 +16,7 @@ export const PortfolioBody = () => {
           <img
             src={imgOrogelSM}
             className={style.portfolio_body_container_visual__img}
+            alt="Orogel Website"
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -27,7 +28,7 @@ export const PortfolioBody = () => {
           </p>
           <a
             href="https://www.orogel.it/"
-            target="_blank"
+            target={`_blank`}
             className={style.portfolio_body_container_content__link}
           >
             <h4>Visit &gt;</h4>
@@ -47,6 +48,7 @@ export const PortfolioBody = () => {
           <img
             src={imgOrogelSM}
             className={style.portfolio_body_container_visual__img}
+            alt="Orogel Fresco Website"
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -58,7 +60,7 @@ export const PortfolioBody = () => {
           </p>
           <a
             href="https://www.orogelfresco.it/"
-            target="_blank"
+            target={`_blank`}
             className={style.portfolio_body_container_content__link}
           >
             <h4>Visit &gt;</h4>
@@ -76,6 +78,7 @@ export const PortfolioBody = () => {
           <img
             src={imgOrogelSM}
             className={style.portfolio_body_container_visual__img}
+            alt="Onit Website"
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -86,7 +89,7 @@ export const PortfolioBody = () => {
           </p>
           <a
             href="https://www.onit.it/"
-            target="_blank"
+            target={`_blank`}
             className={style.portfolio_body_container_content__link}
           >
             <h4>Visit &gt;</h4>
@@ -105,6 +108,7 @@ export const PortfolioBody = () => {
           <img
             src={imgOrogelSM}
             className={style.portfolio_body_container_visual__img}
+            alt="Linxs Website"
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -116,7 +120,7 @@ export const PortfolioBody = () => {
           </p>
           <a
             href="https://www.linxs.it/"
-            target="_blank"
+            target={`_blank`}
             className={style.portfolio_body_container_content__link}
           >
             <h4>Visit &gt;</h4>
@@ -135,6 +139,7 @@ export const PortfolioBody = () => {
           <img
             src={imgOrogelSM}
             className={style.portfolio_body_container_visual__img}
+            alt="Fabula Website"
           />
         </div>
         <div className={style.portfolio_body_container_content}>
@@ -146,7 +151,7 @@ export const PortfolioBody = () => {
           </p>
           <a
             href="https://www.fabulagroup.it/"
-            target="_blank"
+            target={`_blank`}
             className={style.portfolio_body_container_content__link}
           >
             <h4>Visit &gt;</h4>

@@ -25,7 +25,6 @@ export const HomeComment = () => {
         </h6>
       </div>
 
-      {/* ANCHOR */}
       <div className={style.home_comment_container}>
         <p className={style.home_comment_container__content}>
           "We worked with Samet in several software projects. He is a problem
