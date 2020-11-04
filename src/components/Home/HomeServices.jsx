@@ -17,9 +17,11 @@ export const HomeServices = () => {
   return (
     <section className={style.home_services}>
       <div className={style.home_services_top_container}>
-        <div className={style.home_services_title}>
+        <div className={style.home_services_top_container_title}>
           <span className={style.topline}></span>
-          <h2 className={style.home_services_title__text}>services</h2>
+          <h2 className={style.home_services_top_container_title__text}>
+            services
+          </h2>
         </div>
       </div>
 
@@ -37,10 +39,11 @@ export const HomeServices = () => {
             Frontend Development
           </h4>
           <p className={style.home_services_container_content__text}>
-            Orogel, the biggest frozen foods company in Italy, strong in its
-            experience as a leading producer of frozen foods, offers a rich,
-            complete range that keeps pace with new trends, wihout renouncing to
-            good, traditional flavour from the past in Italy.
+            I am a Frontend Engineer with industry experience building websites
+            and web applications. I specialize in JavaScript and have
+            professional experience working with React. I also have experience
+            working with SCSS, Bootstrap, and Vanilla JavaScript. You can get in
+            touch on LinkedIn for more info.
           </p>
         </div>
       </div>
@@ -58,10 +61,8 @@ export const HomeServices = () => {
             UX Design
           </h4>
           <p className={style.home_services_container_content__text}>
-            Orogel, the biggest frozen foods company in Italy, strong in its
-            experience as a leading producer of frozen foods, offers a rich,
-            complete range that keeps pace with new trends, wihout renouncing to
-            good, traditional flavour from the past in Italy.
+            I have hand-on experience with Adobe XD and Apple Sketch. I do
+            design my own projects.
           </p>
         </div>
       </div>
@@ -79,8 +80,9 @@ export const HomeServices = () => {
           </h4>
           <p className={style.home_services_container_content__text}>
             I work for Google at the Webtech Project. I implement Google codes
-            and cover testing process. Google Analytics, Ads, Tag Manager, and
-            Merchant Center are the products I support in professional level.
+            and cover the testing process. Google Analytics, Ads, Tag Manager,
+            and Merchant Center are the products I support at a professional
+            level.
           </p>
         </div>
       </div>

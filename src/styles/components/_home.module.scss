@@ -49,11 +49,14 @@
     }
 
     &_content {
-      text-transform: capitalize;
-
       &__text {
         padding: 1rem 0;
       }
+
+      &__title {
+        text-transform: capitalize;
+      }
+
       &__link {
         color: $color-amber;
       }
@@ -68,29 +71,36 @@
   color: $color-bianca;
   padding: 4rem;
 
-  &_container {
-    margin-top: 4rem;
-  }
-
-  &_title {
+  &_top_container {
     text-transform: uppercase;
   }
 
-  &_visual {
-    margin-bottom: 1.2rem;
-    &__img {
+  &_container {
+    margin-top: 4rem;
+
+    &_title {
+      text-transform: uppercase;
+    }
+
+    &_visual {
       margin-bottom: 1.2rem;
+      &__img {
+        margin-bottom: 1.2rem;
+      }
     }
-  }
 
-  &_content {
-    text-transform: capitalize;
+    &_content {
+      &__text {
+        padding: 1rem 0;
+      }
 
-    &__text {
-      padding: 1rem 0;
-    }
-    &__link {
-      color: $color-amber;
+      &__title {
+        text-transform: capitalize;
+      }
+
+      &__link {
+        color: $color-amber;
+      }
     }
   }
 }
