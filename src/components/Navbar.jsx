@@ -9,7 +9,7 @@ export const Navbar = () => {
   const setIsOpen = state[1];
 
   const isOpenClass = isOpen ? style.open : "";
-  const navLinks = ["Home", "About", "Portfolio", "Lab"];
+  const navLinks = ["Home", "About", "Project", "Lab"];
 
   return (
     <nav className={style.nav_bar}>

@@ -21,7 +21,7 @@ import fabulaIconSM from "../../assets/fabula.png";
 import fabulaIconMD from "../../assets/fabula@x2.png";
 import fabulaIconXL from "../../assets/fabula@x3.png";
 
-export const PortfolioBody = () => {
+export const ProjectBody = () => {
   return (
     <section className={style.portfolio_body}>
       {/* OROGEL */}

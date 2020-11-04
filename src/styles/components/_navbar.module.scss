@@ -28,7 +28,7 @@
   .nav_bar {
     position: relative;
     z-index: 1;
-
+    height: 10vh;
     .nav_hamburger {
       position: absolute;
       cursor: pointer;
@@ -58,6 +58,18 @@
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);
       }
+
+      &_hidden {
+        visibility: hidden;
+      }
+    }
+  }
+}
+
+.nav_links_hidden {
+  .nav_bar {
+    .nav_links {
+      visibility: hidden;
     }
   }
 }

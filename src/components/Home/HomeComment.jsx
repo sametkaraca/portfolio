@@ -15,7 +15,7 @@ export const HomeComment = () => {
         </p>
         <span className={style.commentline}></span>
         <br />
-        <img src={profileIconTop} alt="" srcset="" />
+        <img src={profileIconTop} alt="Comment Profile" />
 
         <h5 className={style.home_comment_container__name}>
           Michelangelo Arcuri
@@ -33,7 +33,7 @@ export const HomeComment = () => {
         </p>
         <span className={style.commentline}></span>
         <br />
-        <img src={profileIconBottom} alt="" srcset="" />
+        <img src={profileIconBottom} alt="Comment Profile" />
 
         <h5 className={style.home_comment_container__name}>Karrar Abd Ali</h5>
         <h6 className={style.home_comment_container__position}>

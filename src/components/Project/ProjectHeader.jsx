@@ -6,7 +6,7 @@ import cesenaMD from "../../assets/cesena@x2.png";
 import cesenaXL from "../../assets/cesena@x3.png";
 import cesenaXXL from "../../assets/cesena@x4.png";
 
-export const PortfolioHeader = () => {
+export const ProjectHeader = () => {
   return (
     <section className={style.portfolio_header}>
       <div className={style.portfolio_header_banner}>
