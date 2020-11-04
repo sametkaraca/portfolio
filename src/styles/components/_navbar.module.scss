@@ -1,7 +1,7 @@
 @import "../components/utilities.module";
 
 .nav_bar {
-  height: 8vh;
+  height: 12vh;
   background: $color-amber;
 
   .nav_links {
@@ -27,6 +27,7 @@
 @media screen and (max-width: $size-tablet) {
   .nav_bar {
     position: relative;
+    z-index: 1;
 
     .nav_hamburger {
       position: absolute;

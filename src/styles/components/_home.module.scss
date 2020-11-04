@@ -132,8 +132,9 @@
     padding: 8rem;
 
     &_container {
-      margin-top: 8rem;
+      margin-top: 4rem;
       &_visual {
+        margin-top: 4rem;
         &__img {
           max-width: 60%;
         }
@@ -145,7 +146,7 @@
     padding: 8rem;
 
     &_container {
-      margin-top: 8rem;
+      margin-top: 4rem;
     }
 
     &_visual__img {
@@ -166,6 +167,10 @@
 @media screen and (min-width: $size-desktop) {
   .home_header {
     padding-left: 12rem;
+
+    &_container {
+      margin-top: 4rem;
+    }
 
     &_name {
       text-align: center;
@@ -228,7 +233,7 @@
     padding: 12rem;
 
     &_container {
-      margin-top: 0;
+      margin-top: 4rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr; //As wide as its content

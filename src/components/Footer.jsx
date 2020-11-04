@@ -7,15 +7,22 @@ export const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.footer_linkedin}>
-        <img
-          src={inIconSM}
-          alt="linkedin"
-          className={style.footer_linkedin_img}
-        />
+        <a
+          href={`https://www.linkedin.com/in/samet-karaca-a8b529160/`}
+          target={`_blank`}
+        >
+          <img
+            src={inIconSM}
+            alt="linkedin"
+            className={style.footer_linkedin_img}
+          />
+        </a>
       </div>
 
       <div className={style.footer_git}>
-        <img src={gitIconSM} alt="github" className={style.footer_github} />
+        <a href={`https://github.com/sametkaraca`} target={`_blank`}>
+          <img src={gitIconSM} alt="github" className={style.footer_github} />
+        </a>
       </div>
       <span className={style.footer_copyright}>
         Copyright &copy;2020 Samet Karaca
