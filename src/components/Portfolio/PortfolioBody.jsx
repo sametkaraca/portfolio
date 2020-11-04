@@ -31,13 +31,16 @@ export const PortfolioBody = () => {
           <h2 className={style.portfolio_body_container_title__text}>Orogel</h2>
         </div>
 
-        <div className={style.portfolio_body_container_visual}>
+        <picture className={style.portfolio_body_container_visual}>
+          <source srcSet={orogelIconXL} media="(min-width: 768px)" />
+          <source srcSet={orogelIconMD} media="(min-width: 540px)" />
           <img
-            srcSet={`${orogelIconSM} 300w, ${orogelIconMD} 768w, ${orogelIconXL} 1280w`}
-            alt="React Service"
+            srcSet={orogelIconSM}
+            alt="Samet Banner"
             className={style.home_services_container_visual__img}
           />
-        </div>
+        </picture>
+
         <div className={style.portfolio_body_container_content}>
           <p className={style.portfolio_body_container_content__text}>
             Orogel, the biggest frozen foods company in Italy, strong in its
@@ -63,19 +66,20 @@ export const PortfolioBody = () => {
           </h2>
         </div>
 
-        <div className={style.portfolio_body_container_visual}>
+        <picture className={style.portfolio_body_container_visual}>
+          <source srcSet={frescoIconXL} media="(min-width: 768px)" />
+          <source srcSet={frescoIconMD} media="(min-width: 540px)" />
           <img
-            srcSet={`${frescoIconSM} 300w, ${frescoIconMD} 768w, ${frescoIconXL} 1280w`}
-            alt="React Service"
+            srcSet={frescoIconSM}
+            alt="Samet Banner"
             className={style.home_services_container_visual__img}
           />
-        </div>
+        </picture>
         <div className={style.portfolio_body_container_content}>
           <p className={style.portfolio_body_container_content__text}>
-            Orogel, the biggest frozen foods company in Italy, strong in its
-            experience as a leading producer of frozen foods, offers a rich,
-            complete range that keeps pace with new trends, wihout renouncing to
-            good, traditional flavour from the past in Italy.
+            Orogel Fresco is Orogel’s brand that produces and trades the best
+            fresh fruit and vegetables grown in the most suitable Italian
+            regions with integrated and organic methods.
           </p>
           <a
             href="https://www.orogelfresco.it/"
@@ -93,13 +97,15 @@ export const PortfolioBody = () => {
           <h2 className={style.portfolio_body_container_title__text}>Onit</h2>
         </div>
 
-        <div className={style.portfolio_body_container_visual}>
+        <picture className={style.portfolio_body_container_visual}>
+          <source srcSet={onitIconXL} media="(min-width: 768px)" />
+          <source srcSet={onitIconMD} media="(min-width: 540px)" />
           <img
-            srcSet={`${onitIconSM} 300w, ${onitIconMD} 768w, ${onitIconXL} 1280w`}
-            alt="React Service"
+            srcSet={onitIconSM}
+            alt="Samet Banner"
             className={style.home_services_container_visual__img}
           />
-        </div>
+        </picture>
         <div className={style.portfolio_body_container_content}>
           <p className={style.portfolio_body_container_content__text}>
             Onit Group is one of the biggest IT company that offers professional
@@ -123,13 +129,15 @@ export const PortfolioBody = () => {
           <h2 className={style.portfolio_body_container_title__text}>Linxs</h2>
         </div>
 
-        <div className={style.portfolio_body_container_visual}>
+        <picture className={style.portfolio_body_container_visual}>
+          <source srcSet={linxsIconXL} media="(min-width: 768px)" />
+          <source srcSet={linxsIconMD} media="(min-width: 540px)" />
           <img
-            srcSet={`${linxsIconSM} 300w, ${linxsIconMD} 768w, ${linxsIconXL} 1280w`}
-            alt="React Service"
+            srcSet={linxsIconSM}
+            alt="Samet Banner"
             className={style.home_services_container_visual__img}
           />
-        </div>
+        </picture>
         <div className={style.portfolio_body_container_content}>
           <p className={style.portfolio_body_container_content__text}>
             LINXS SRL is located in FORLI'-CESENA, Italy and is part of the
@@ -154,19 +162,20 @@ export const PortfolioBody = () => {
           <h2 className={style.portfolio_body_container_title__text}>Fabula</h2>
         </div>
 
-        <div className={style.portfolio_body_container_visual}>
+        <picture className={style.portfolio_body_container_visual}>
+          <source srcSet={fabulaIconXL} media="(min-width: 768px)" />
+          <source srcSet={fabulaIconMD} media="(min-width: 540px)" />
           <img
-            srcSet={`${fabulaIconSM} 300w, ${fabulaIconMD} 768w, ${fabulaIconXL} 1280w`}
-            alt="React Service"
+            srcSet={fabulaIconSM}
+            alt="Samet Banner"
             className={style.home_services_container_visual__img}
           />
-        </div>
+        </picture>
         <div className={style.portfolio_body_container_content}>
           <p className={style.portfolio_body_container_content__text}>
-            LINXS SRL is located in FORLI'-CESENA, Italy and is part of the
-            Computer Software Industry. LINXS SRL has employees across all of
-            its locations. There are 2 companies in the LINXS SRL corporate
-            family.
+            Communication and new media strategies, media center, work
+            management software, and marketing applications in Emigla-Romagna,
+            Italy.
           </p>
           <a
             href="https://www.fabulagroup.it/"

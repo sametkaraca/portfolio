@@ -29,7 +29,8 @@ export const PortfolioHeader = () => {
             Portfolio
           </h1>
           <h2 className={style.portfolio_header_container_title__content}>
-            The Participated Projects in Italy
+            The Participated
+            <br /> Projects in Italy
           </h2>
         </div>
       </div>
