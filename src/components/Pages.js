@@ -9,11 +9,11 @@ import { Lab } from "./Lab/Lab";
 export const Pages = () => {
   return (
     <Switch>
-      <Route path="/About" component={About} exact />
-      <Route path="/Project" component={Project} exact />
-      <Route path="/Lab" component={Lab} exact />
-      <Route path="/Home" component={Home} exact />
-      <Route path="/" component={Home} exact />
+      <Route path="portfolio/About" component={About} exact />
+      <Route path="portfolio/Project" component={Project} exact />
+      <Route path="portfolio/Lab" component={Lab} exact />
+      <Route path="portfolio/Home" component={Home} exact />
+      <Route path="portfolio/" component={Home} exact />
       <Route component={Error} exact />
     </Switch>
   );
