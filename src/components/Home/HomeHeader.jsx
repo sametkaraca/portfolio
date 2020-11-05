@@ -16,7 +16,7 @@ export const HomeHeader = () => {
         </h3>
       </div>
       <div className={style.home_header_portfolio}>
-        <Link className={style.home_header_portfolio__link} to={`/portfolio`}>
+        <Link className={style.home_header_portfolio__link} to={`/project`}>
           Portfolio &gt;
         </Link>
       </div>
