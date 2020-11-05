@@ -23,8 +23,9 @@ export const Navbar = () => {
         {navLinks.map((item) => (
           <li key={item} className={style.nav_links__link}>
             <NavLink
-              to={process.env.PUBLIC_URL + item}
+              to={item}
               className={style.nav_links__link__a}
+              onClick={() => setIsOpen(false)}
             >
               {item}
             </NavLink>
