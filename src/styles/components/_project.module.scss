@@ -1,17 +1,13 @@
 @import "../components/utilities.module";
 
-.portfolio_header {
+.project_header {
   display: grid;
   margin-bottom: -1rem;
 
-  &_banner {
-    &__picture {
-      &__img {
-        max-width: 100%;
-        max-height: 100%;
-        height: auto;
-      }
-    }
+  &_banner__picture__img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
   }
 
   &_container {
@@ -20,15 +16,13 @@
     padding: 4rem;
     max-width: 47vw;
     &_title {
-      color: $color-bianca;
-
       &__text {
         text-transform: uppercase;
-        padding: 1rem 0;
       }
 
       &__content {
-        color: $color-amber;
+        margin-top: 4rem;
+        color: $color-kournikova;
         font-weight: lighter;
         text-transform: capitalize;
       }
@@ -36,11 +30,10 @@
   }
 }
 
-.portfolio_body {
+.project_body {
   background-color: $color-shakespeare;
   display: grid;
   align-items: center;
-  color: $color-bianca;
 
   &_container {
     padding: 4rem;
@@ -63,6 +56,11 @@
       background-color: $color-shakespeare;
     }
 
+    &_visual {
+      display: block;
+      margin-top: 4rem;
+    }
+
     &_title {
       text-transform: uppercase;
       margin-bottom: 2rem;
@@ -82,13 +80,13 @@
 }
 
 @media screen and (min-width: $size-tablet) {
-  .portfolio_header {
+  .project_header {
     &_container {
       padding: 8rem;
     }
   }
 
-  .portfolio_body {
+  .project_body {
     &_container {
       padding: 8rem;
     }
@@ -96,24 +94,15 @@
 }
 
 @media screen and (min-width: $size-desktop) {
-  .portfolio_header {
+  .project_header {
     &_container {
       padding: 12rem;
-
-      &_title {
-        &__content {
-          font-size: 4.6rem;
-          font-weight: lighter;
-          text-transform: capitalize;
-        }
-      }
     }
   }
 
-  .portfolio_body {
+  .project_body {
     &_container {
       padding: 12rem;
-      margin-top: 0;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr; //As wide as its content
@@ -121,7 +110,6 @@
       &_title {
         grid-column: 1/3;
         grid-row: 1/2;
-        margin-bottom: 4rem;
       }
 
       &_visual {
@@ -129,10 +117,6 @@
         grid-row: 2/3;
         align-self: center;
         padding-right: 2rem;
-
-        &__img {
-          min-width: 500px;
-        }
       }
 
       &_content {

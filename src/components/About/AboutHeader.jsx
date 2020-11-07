@@ -25,10 +25,10 @@ export const AboutHeader = () => {
         <div className={style.about_header_container_title}>
           <span className={style.topline}></span>
           <h1 className={style.about_header_container_title__text}>About</h1>
-          <h1 className={style.about_header_container_title__content}>
+          <h3 className={style.about_header_container_title__content}>
             <br />
             I'm Samet. <br /> A frontend engineer.
-          </h1>
+          </h3>
         </div>
       </div>
     </section>

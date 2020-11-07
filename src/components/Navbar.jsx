@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(0, 1);
 
   const isOpenClass = isOpen ? style.open : "";
-  const navLinks = ["Home", "About", "Project", "Lab"];
+  const navLinks = ["Home", "About", "Projects", "Lab"];
 
   return (
     <nav className={style.nav_bar}>
