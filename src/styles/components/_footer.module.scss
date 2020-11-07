@@ -3,32 +3,34 @@
 .footer {
   padding: 2rem;
   height: 20vh;
-
-  background: $color-amber;
+  background: $color-ebony-clay;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  color: $color-bianca;
+  font-size: 1rem;
+  text-align: center;
 
   &_linkedin {
-    display: inline-block;
     text-align: left;
     grid-column: 2 /3;
     grid-row: 2/3;
   }
 
   &_git {
-    display: inline-block;
     text-align: right;
     grid-column: 3 /4;
     grid-row: 2/3;
   }
 
   &_copyright {
-    color: $color-lochmara;
-    font-size: 1.6rem;
-    text-align: center;
     grid-column: 1/5;
     grid-row: 3/4;
     align-self: end;
+  }
+}
+@media screen and (min-width: $size-desktop) {
+  .footer {
+    font-size: 1.4rem;
   }
 }

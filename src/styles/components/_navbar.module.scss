@@ -2,24 +2,21 @@
 
 .nav_bar {
   height: 12vh;
-  background: $color-amber;
+  background: $color-ebony-clay;
 
-  .nav_links {
+  &_menu {
     display: flex;
     list-style: none;
     width: 50%;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
     margin-left: auto;
+    height: 100%;
 
-    .nav_links__link {
-      text-transform: capitalize;
-      &__a {
-        color: $color-ebony-clay;
-        font-size: 3.2rem;
-        font-weight: lighter;
-      }
+    &__link {
+      color: $color-bianca;
+      font-size: 3.2rem;
+      font-weight: lighter;
     }
   }
 }
@@ -29,7 +26,7 @@
     position: relative;
     z-index: 1;
     height: 10vh;
-    .nav_hamburger {
+    &_hamburger {
       position: absolute;
       cursor: pointer;
       right: 5%;
@@ -39,37 +36,25 @@
       &__line {
         width: 30px;
         height: 3px;
-        background: $color-ebony-clay;
+        background: $color-bianca;
         margin: 5px;
       }
     }
 
-    .nav_links {
+    &_menu {
       position: fixed;
-      background: $color-amber;
+      background: $color-ebony-clay;
       height: 100vh;
       width: 100%;
       flex-direction: column;
       clip-path: circle(0 at 90% -10%);
       -webkit-clip-path: circle(0 at 90% -10%);
-      transition: all 1s ease-out;
+      transition: all 0.8s ease-out;
 
       &.open {
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);
       }
-
-      &_hidden {
-        visibility: hidden;
-      }
-    }
-  }
-}
-
-.nav_links_hidden {
-  .nav_bar {
-    .nav_links {
-      visibility: hidden;
     }
   }
 }

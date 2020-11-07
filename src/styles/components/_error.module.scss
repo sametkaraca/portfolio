@@ -12,10 +12,6 @@
       font-size: 8rem;
       color: $color-amber;
     }
-
-    &__content {
-      color: $color-amber;
-    }
   }
 }
 
@@ -24,11 +20,6 @@
     &_container {
       &__title {
         font-size: 12rem;
-      }
-
-      &__content {
-        color: $color-amber;
-        font-size: 2.6rem;
       }
     }
   }
