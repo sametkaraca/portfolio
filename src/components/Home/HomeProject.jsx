@@ -1,8 +1,8 @@
 import React from "react";
 import style from "../../styles/components/_home.module.scss";
-import orogelIconSM from "../../assets/orogel.png";
-import orogelIconMD from "../../assets/orogel@x2.png";
-import orogelIconXL from "../../assets/orogel@x3.png";
+import orogelIconSM from "../../assets/onit.png";
+import orogelIconMD from "../../assets/onit@x2.png";
+import orogelIconXL from "../../assets/onit@x3.png";
 
 export const HomeProject = () => {
   return (
@@ -23,14 +23,11 @@ export const HomeProject = () => {
           />
         </div>
         <div className={style.home_project_container_content}>
-          <h4 className={style.home_project_container_content__title}>
-            orogel
-          </h4>
+          <h4 className={style.home_project_container_content__title}>Onit</h4>
           <p className={style.home_project_container_content__text}>
-            Orogel, the biggest frozen foods company in Italy, strong in its
-            experience as a leading producer of frozen foods, offers a rich,
-            complete range that keeps pace with new trends, wihout renouncing to
-            good, traditional flavour from the past in Italy.
+            Onit Group is one of the biggest IT company that offers professional
+            software solutions and consulting services for business management
+            and organization in Romagna region based on Forli-Cesena.
           </p>
           <a
             href="https://www.onit.it/"
