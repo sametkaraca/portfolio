@@ -21,7 +21,8 @@
       }
 
       &__content {
-        color: $color-kournikova;
+        color: $color-amber;
+        text-shadow: 1px 1px $color-ebony-clay;
         font-weight: lighter;
       }
     }
