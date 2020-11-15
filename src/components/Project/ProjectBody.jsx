@@ -21,6 +21,10 @@ import fabulaIconSM from "../../assets/fabula.png";
 import fabulaIconMD from "../../assets/fabula@x2.png";
 import fabulaIconXL from "../../assets/fabula@x3.png";
 
+import nordicIconSM from "../../assets/nordic.png";
+import nordicIconMD from "../../assets/nordic@x2.png";
+import nordicIconXL from "../../assets/nordic@x3.png";
+
 export const ProjectBody = () => {
   return (
     <section className={style.project_body}>
@@ -179,6 +183,42 @@ export const ProjectBody = () => {
           </p>
           <a
             href="https://www.fabulagroup.it/"
+            target={`_blank`}
+            className={style.project_body_container_content__link}
+          >
+            <h4>Visit &gt;</h4>
+          </a>
+        </div>
+      </div>
+
+      {/* NORDIC TRAVEL */}
+      <div className={style.project_body_container}>
+        <div className={style.project_body_container_title}>
+          <span className={style.topline}></span>
+          <h2 className={style.project_body_container_title__text}>
+            Nordic Travel
+          </h2>
+        </div>
+
+        <picture className={style.project_body_container_visual}>
+          <source srcSet={nordicIconXL} media="(min-width: 768px)" />
+          <source srcSet={nordicIconMD} media="(min-width: 540px)" />
+          <img
+            srcSet={nordicIconSM}
+            alt="Samet Banner"
+            className={style.home_services_container_visual__img}
+          />
+        </picture>
+        <div className={style.project_body_container_content}>
+          <p className={style.project_body_container_content__text}>
+            Nordic Travel is a visionary traveling agency. I make this project
+            my own to practice React.js. The Nordic travels make you explore the
+            travel packages and tours to find your dream Nordic trip, whether
+            you want to cruise the fjords or hunt the awe-inspiring northern
+            lights.
+          </p>
+          <a
+            href="https://github.com/sametkaraca/nordictravel"
             target={`_blank`}
             className={style.project_body_container_content__link}
           >

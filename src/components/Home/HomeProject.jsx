@@ -11,7 +11,7 @@ export const HomeProject = () => {
         <div className={style.home_project_container_title}>
           <span className={style.topline}></span>
           <h2 className={style.home_project_container_title__text}>
-            featured project
+            featured projects
           </h2>
         </div>
 
