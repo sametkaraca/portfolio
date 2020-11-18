@@ -33,8 +33,6 @@
 
 .project_body {
   background-color: $color-shakespeare;
-  display: grid;
-  align-items: center;
 
   &_container {
     padding: 4rem;
@@ -83,6 +81,7 @@
 
 @media screen and (min-width: $size-tablet) {
   .project_header {
+    display: grid;
     &_container {
       padding: 8rem;
     }
