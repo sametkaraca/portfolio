@@ -9,7 +9,7 @@ export const HomeProject = () => {
     <section className={style.home_project}>
       <div className={style.home_project_title}>
         <span className={style.topline}></span>
-        <h2 className={style.home_project_title__text}>Orogel</h2>
+        <h2 className={style.home_project_title__text}>Featured Project</h2>
       </div>
 
       <picture className={style.home_project_visual}>
@@ -18,7 +18,7 @@ export const HomeProject = () => {
         <img
           srcSet={orogelIconSM}
           alt="Samet Banner"
-          className={style.home_services_container_visual__img}
+          className={style.home_services_visual__img}
         />
       </picture>
 
