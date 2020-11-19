@@ -2,13 +2,10 @@
 
 .project_header {
   display: grid;
-  margin-bottom: -1rem;
+  margin-bottom: -10px;
 
-  &_banner {
-    width: 100%;
-    height: 100%;
-
-    &__picture__img {
+  &__picture {
+    &__img {
       max-width: 100%;
       max-height: 100%;
       height: auto;
@@ -17,21 +14,14 @@
 
   &_container {
     position: absolute;
-    align-items: center;
     padding: 4rem;
-    max-width: 47vw;
-    &_title {
-      &__text {
-        text-transform: uppercase;
-      }
 
-      &__content {
-        margin-top: 4rem;
-        color: $color-kournikova;
-        font-weight: lighter;
-        text-transform: capitalize;
-        text-shadow: 1px 1px $color-ebony-clay;
-      }
+    &__content {
+      margin-top: 4rem;
+      color: $color-kournikova;
+      font-weight: lighter;
+      text-transform: capitalize;
+      text-shadow: 1px 1px $color-ebony-clay;
     }
   }
 }

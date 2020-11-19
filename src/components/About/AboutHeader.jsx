@@ -9,27 +9,24 @@ import sametXXL from "../../assets/samet@x4.png";
 export const AboutHeader = () => {
   return (
     <section className={style.about_header}>
-      <div className={style.about_header_banner}>
-        <picture className={style.about_header_banner__picture}>
-          <source srcSet={sametXXL} media="(min-width: 1200px)" />
-          <source srcSet={sametXL} media="(min-width: 768px)" />
-          <source srcSet={sametMD} media="(min-width: 540px)" />
-          <img
-            srcSet={sametSM}
-            alt="Samet Banner"
-            className={style.about_header_banner__picture__img}
-          />
-        </picture>
-      </div>
+      <picture className={style.about_header__picture}>
+        <source srcSet={sametXXL} media="(min-width: 1200px)" />
+        <source srcSet={sametXL} media="(min-width: 768px)" />
+        <source srcSet={sametMD} media="(min-width: 540px)" />
+        <img
+          srcSet={sametSM}
+          alt="Samet Banner"
+          className={style.about_header__picture__img}
+        />
+      </picture>
+
       <div className={style.about_header_container}>
-        <div className={style.about_header_container_title}>
-          <span className={style.topline}></span>
-          <h1 className={style.about_header_container_title__text}>About</h1>
-          <h3 className={style.about_header_container_title__content}>
-            <br />
-            I'm Samet. <br /> A frontend engineer.
-          </h3>
-        </div>
+        <span className={style.topline}></span>
+        <h1 className={style.about_header_container__text}>abouts</h1>
+        <h3 className={style.about_header_container__content}>
+          The Participated
+          <br /> abouts in Italy
+        </h3>
       </div>
     </section>
   );

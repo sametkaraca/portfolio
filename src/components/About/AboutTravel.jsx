@@ -9,7 +9,7 @@ import travelXXL from "../../assets/travel@x4.png";
 export const AboutTravel = () => {
   return (
     <section className={style.about_travel}>
-      <picture className={style.about_travel_banner__picture}>
+      <picture className={style.about_travel__picture}>
         <source srcSet={travelXXL} media="(min-width: 1200px)" />
         <source srcSet={travelXL} media="(min-width: 768px)" />
         <source srcSet={travelMD} media="(min-width: 540px)" />

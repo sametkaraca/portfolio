@@ -8,7 +8,7 @@ export const HomeHeader = () => {
         <h1 className={style.home_header_salute__text}>Hello&#44;</h1>
       </div>
       <div className={style.home_header_name}>
-        <h1 className={style.home_header_name__text}> I'm Samet</h1>
+        <h1 className={style.home_header_name__text}> I am Samet</h1>
         <h3 className={style.home_header_name__subtext}>
           Frontend Engineer <br />
           UI/UX Designer
