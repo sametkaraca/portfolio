@@ -2,36 +2,26 @@
 
 .about_header {
   display: grid;
-  margin-bottom: -1rem;
+  margin-bottom: -10px;
 
-  &_banner {
-    &__picture {
-      &__img {
-        max-width: 100%;
-        max-height: 100%;
-        height: auto;
-      }
+  &__picture {
+    &__img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
     }
   }
 
   &_container {
     position: absolute;
-    align-items: center;
     padding: 4rem;
-    max-width: 47vw;
-    &_title {
-      color: $color-bianca;
 
-      &__text {
-        text-transform: uppercase;
-        padding: 1rem 0;
-      }
-
-      &__content {
-        color: $color-amber;
-        font-weight: lighter;
-        text-transform: capitalize;
-      }
+    &__content {
+      margin-top: 4rem;
+      color: $color-kournikova;
+      font-weight: lighter;
+      text-transform: capitalize;
+      text-shadow: 1px 1px $color-ebony-clay;
     }
   }
 }
@@ -62,7 +52,6 @@
   display: grid;
   align-items: center;
   padding: 4rem;
-  color: $color-bianca;
 
   &__maintitle {
     text-transform: uppercase;
@@ -80,14 +69,12 @@
 
       &_school {
         padding-top: 0.6rem;
-        color: $color-bianca;
         text-transform: uppercase;
         font-style: italic;
       }
     }
     &__content {
       padding-top: 0.6rem;
-
       font-weight: lighter;
       font-style: italic;
     }
@@ -107,16 +94,11 @@
 
   &_content {
     margin-top: 2rem;
-    color: $color-bianca;
   }
 }
 
 .about_travel {
-  margin-bottom: -1rem;
-  // &_img {
-  //   width: 100%;
-  //   height: auto;
-  // }
+  margin-bottom: -10px;
   &__picture {
     &__img {
       max-width: 100%;
@@ -126,7 +108,6 @@
   }
 }
 
-//TABLET
 @media screen and (min-width: $size-tablet) {
   .about_header {
     &_container {
@@ -150,19 +131,10 @@
   }
 }
 
-//DESKTOP
-@media screen and (min-width: $size-tablet) {
+@media screen and (min-width: $size-desktop) {
   .about_header {
     &_container {
       padding: 12rem;
-
-      h1 {
-        font-size: 4.6rem;
-      }
-    }
-
-    &_container_title__content {
-      font-size: 3.2rem;
     }
   }
 

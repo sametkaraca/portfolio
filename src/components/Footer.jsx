@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../styles/main.module.scss";
+import style from "../styles/components/_footer.module.scss";
 import inIconSM from "../assets/in@1x.png";
 import gitIconSM from "../assets/git@1x.png";
 

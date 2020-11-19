@@ -3,28 +3,29 @@ import { NavLink } from "react-router-dom";
 import style from "../styles/components/_navbar.module.scss";
 
 export const Navbar = () => {
-  const state = useState(false);
-
-  const isOpen = state[0];
-  const setIsOpen = state[1];
+  useState(false);
+  const [isOpen, setIsOpen] = useState(0, 1);
 
   const isOpenClass = isOpen ? style.open : "";
-  const navLinks = ["Home", "About", "Project", "Lab"];
+  const navLinks = ["Home", "About", "Projects", "Lab"];
 
   return (
     <nav className={style.nav_bar}>
-      <div className={style.nav_hamburger} onClick={() => setIsOpen(!isOpen)}>
-        <div className={style.nav_hamburger__line}></div>
-        <div className={style.nav_hamburger__line}></div>
-        <div className={style.nav_hamburger__line}></div>
+      <div
+        className={style.nav_bar_hamburger}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className={style.nav_bar_hamburger__line}></div>
+        <div className={style.nav_bar_hamburger__line}></div>
+        <div className={style.nav_bar_hamburger__line}></div>
       </div>
 
-      <ul className={[style.nav_links, isOpenClass].join(" ")}>
+      <ul className={[style.nav_bar_menu, isOpenClass].join(" ")}>
         {navLinks.map((item) => (
-          <li key={item} className={style.nav_links__link}>
+          <li key={item}>
             <NavLink
               to={item}
-              className={style.nav_links__link__a}
+              className={style.nav_bar_menu__link}
               onClick={() => setIsOpen(false)}
             >
               {item}
