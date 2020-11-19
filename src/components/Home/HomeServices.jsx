@@ -119,34 +119,6 @@ export const HomeServices = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <picture className={style.home_services_visual}>
-            <source srcSet={googleIconXL} media="(min-width: 768px)" />
-            <source srcSet={googleIconMD} media="(min-width: 540px)" />
-            <img
-              srcSet={googleIconSM}
-              alt="Samet Banner"
-              className={style.home_services_visual__img}
-            />
-          </picture>
-
-          <div className={style.home_services_content}>
-            <h2 className={style.home_services_content__title}>Google Tools</h2>
-            <p className={style.home_services_content__text}>
-              I work for Google at the Webtech Project. I implement Google codes
-              and cover the testing process. Google Analytics, Ads, Tag Manager,
-              and Merchant Center are the products I support at a professional
-              level.
-            </p>
-            <a
-              href="https://www.orogel.it/"
-              target={`_blank`}
-              className={style.home_services_content__link}
-            >
-              <h4>Visit &gt;</h4>
-            </a>
-          </div>
-        </SwiperSlide>
       </Swiper>
     </section>
   );
