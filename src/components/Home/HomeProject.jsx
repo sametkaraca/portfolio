@@ -24,13 +24,12 @@ export const HomeProject = () => {
 
       <div className={style.home_project_content}>
         <p className={style.home_project_content__text}>
-          Orogel, the biggest frozen foods company in Italy, strong in its
-          experience as a leading producer of frozen foods, offers a rich,
-          complete range that keeps pace with new trends, wihout renouncing to
-          good, traditional flavour from the past in Italy.
+          Onit Group is one of the biggest IT company that offers professional
+          software solutions and consulting services for business management and
+          organization in Romagna region based on Forli-Cesena.
         </p>
         <a
-          href="https://www.orogel.it/"
+          href="https://www.onit.it/"
           target={`_blank`}
           className={style.home_project_content__link}
         >
